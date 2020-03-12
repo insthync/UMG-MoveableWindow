@@ -26,6 +26,7 @@ public class MoveableUMGWindow : ModuleRules
 			new string[]
 			{
 				"Core",
+				"UMG"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

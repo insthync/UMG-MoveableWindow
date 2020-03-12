@@ -14,4 +14,10 @@ class MOVEABLEUMGWINDOW_API UMoveableWindowManager : public UCanvasPanel
 {
 	GENERATED_BODY()
 	
+	TArray<UWidget*> Children;
+
+public:
+
+	UFUNCTION(BlueprintCallable)
+	void UpdateOrder(UWidget* Window);
 };
